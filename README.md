@@ -28,3 +28,10 @@ and then use curl to call the API.
 
 ### Dependencies
 Check requirements.txt for python packages dependencies. If GPU is available make sure to install tensorflow with GPU support and then run the scripts for better speed. 
+
+## Future Work
+* Finetune the model for better detection around edges 
+* Improve the model's performance on body and background sepration
+* Add feture to upscale images
+* Improve the overall detection in case of people in images
+* Add background removal support for various day to day objects and handwritings. 
