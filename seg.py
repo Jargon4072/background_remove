@@ -101,10 +101,10 @@ print('model loaded successfully : ' + modelType)
 def run_visualization(filepath):
   """Inferences DeepLab model and visualizes result."""
   try:
-  	print("Trying to open : " + sys.argv[1])
-  	# f = open(sys.argv[1])
-  	jpeg_str = open(filepath, "rb").read()
-  	orignal_im = Image.open(BytesIO(jpeg_str))
+    print("Trying to open : " + sys.argv[1])
+    # f = open(sys.argv[1])
+    jpeg_str = open(filepath, "rb").read()
+    orignal_im = Image.open(BytesIO(jpeg_str))
   except IOError:
     print('Cannot retrieve image. Please check file: ' + filepath)
     return

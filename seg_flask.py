@@ -13,7 +13,9 @@ import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
 import cv2
-import tensorflow as tf
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import sys
 import datetime
 from flask import Flask, request, Response

@@ -1,0 +1,8 @@
+numpy
+pillow
+tensorflow
+opencv-python
+matplotlib
+flask
+jsonpickle
+# pycopy-binascii
