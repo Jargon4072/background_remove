@@ -23,6 +23,7 @@ pip3 -r install requirements.txt
 
 * For starting flask api server run:
 >	python3 seg_flask.py 
+
 and then use curl to call the API. 
 
 ### Dependencies
