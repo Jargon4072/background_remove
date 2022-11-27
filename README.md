@@ -7,10 +7,10 @@ Removal of Background using Deep Learning. This repo contains code for API & scr
 
 Here, we make use of the State Of the Art deep learning model Xception, published by google research team.
 
-The weights of Xception model needs to be downloaded before running the scripts. The script to use the model as API is also provided. 
+The weights of Xception model needs to be downloaded before running the scripts. The script to serve the model via REST API is also provided. 
 
 
-### Setup
+## Setup
 #### 1. Downloading the weight file
 The script setup.sh downloads the trained model and sets it up so that the seg.py script can understand. 
 >	./setup.sh
@@ -27,7 +27,7 @@ pip3 -r install requirements.txt
 and then use curl to call the API. 
 
 ### Dependencies
-Check requirements.txt for python packages dependencies. If GPU is available make sure to install tensorflow with GPU support and then run the scripts for better speed. 
+Check requirements.txt for python packages dependencies. If GPU is available make sure to install tensorflow with GPU support(i.e. with cuda and cudnn libreries) and then run the scripts for better speed. 
 
 ## Future Work
 * Finetune the model for better detection around edges 
